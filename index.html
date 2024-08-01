@@ -1,11 +1,118 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="id">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
-    
- </body>
- </html> 
+    <title>Website Travel</title>
+    <link rel="stylesheet" href="CSS\styles.css"">
+</head>
+<body>
+    <div class="header">
+        <img src="https://bek.link/gambarbebas/20240731-091017_download.jpeg" alt="Logo Travel" class="logo">
+        <div class="nav">
+            <a href="#home" class="nav-link">Beranda</a>
+            <a href="#ourpage" class="nav-link">Halaman Kami</a>
+            <a href="#contactus" class="nav-link">Hubungi Kami</a>
+        </div>
+    </div>
+    <div class="welcome-section">
+        <h1>Selamat Datang di Website Travel Kami</h1>
+        <p>Temukan berbagai penawaran terbaik dan pengalaman perjalanan yang tak terlupakan bersama kami.</p>
+    </div>
+    <div class="content">
+        <div>
+            <img src="https://bek.link/gambarbebas/20240731-091017_download%20(1).jpeg" alt="Gambar Travel" class="travel-image" id="fadeInImage">
+            <div class="personal-info">
+                <h2><img src="https://bek.link/gambarbebas/20240731-101442_download.png" alt="Icon Person">Suratno</h2>
+                <p>Karyawan, 38 Tahun</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2>Kontak Kami</h2>
+            <form action="#" method="post">
+                <label for="name">Nama Anda</label>
+                <input type="text" id="name" name="name" placeholder="Nama Depan dan Belakang" required>
+                
+                <label for="email">Alamat Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                
+                <label for="interest">Apa yang Anda Minati?</label>
+                <select id="interest" name="interest" required>
+                    <option value="" disabled selected>Pilih Opsi</option>
+                    <option value="flights">Penerbangan</option>
+                    <option value="hotels">Hotel</option>
+                    <option value="packages">Paket Perjalanan</option>
+                </select>
+                
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" placeholder="Pesan Anda di sini..." required></textarea>
+                
+                <input type="submit" value="Kirim Pesan">
+            </form>
+        </div>
+    </div>
+
+    <div class="promotion-section">
+        <h2>Penawaran Terbaik untuk Seluruh Kota di Indonesia</h2>
+        <div class="promotion-card">
+            <h3>Jakarta</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 500.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Surabaya</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 600.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Denpasar</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 700.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Bandung</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 450.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Medan</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 650.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Makassar</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 750.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Yogyakarta</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 550.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Palembang</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 600.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Batam</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 670.000</p>
+        </div>
+        <div class="promotion-card">
+            <h3>Solo</h3>
+            <p>Penerbangan langsung</p>
+            <p class="price">Rp 500.000</p>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2>Siap untuk Memulai Petualangan Anda?</h2>
+        <p>Kami di sini untuk membantu Anda merencanakan perjalanan yang sempurna. Jangan lewatkan penawaran terbaik dan pengalaman yang tak terlupakan. Segera hubungi kami untuk mendapatkan penawaran eksklusif dan tips perjalanan dari ahli kami!</p>
+        <a href="#contactus" class="cta-button">Hubungi Kami Sekarang</a>
+    </div>
+
+    <script src="JS\scripts.js"></script>
+</body>
+</html>
